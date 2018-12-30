@@ -7,7 +7,7 @@
     <ThingDef ParentName="DoC_BuildingBase">
     <defName>CoD_Wall</defName>
     <label>wall</label>
-    <description>An impassable wall. Capable of holding up a roof.</description>
+    <description>An impassable wall of dirt. Capable of holding up a roof.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>
