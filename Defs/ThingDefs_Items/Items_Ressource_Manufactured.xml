@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--********************* Neolithic *********************-->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>DirtNeolithic</defName>
+        <label>dirt</label>
+        <description>Just some dirty dirt</description>
+        <graphicData>
+          <texPath>Things/Item/Resource/dirt</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>0.90</drawSize>
+        </graphicData>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>75</stackLimit>
+        <statBases>
+	        <WorkToMake>800</WorkToMake>
+          <MaxHitPoints>70</MaxHitPoints>
+          <MarketValue>1</MarketValue>
+          <Mass>0.6</Mass>  
+          <Flammability>0</Flammability>
+          <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+      <intricate>true</intricate>
+      <thingCategories>
+        <li>Manufactured</li>
+      </thingCategories>
+    </ThingDef>
+  
+  </Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+  <ThingDef ParentName="BuildingBase" Name="DoC_BuildingBase" Abstract="True">
+  </ThingDef>
+
+  <thingCateforyDef>
+    <defname>CoD_Buildings</defname>
+    <label>CoD</label>
+    <parent>Buildings</parent>
+  </thingCateforyDef>
+  
+</Defs>
